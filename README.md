@@ -3,10 +3,10 @@ bare bones websocket with nodejs serverside
 
 this repo lives at https://github.com/scottstensland/websocket-simpleapp
 
-Here we supply the code and instructions to demonstrate WebSockets for browser side and server side
+Here we supply the code and instructions to demonstrate WebSockets for browser side and server side ... We will use nodejs for server development and browser javascript as our client
 
 
-Install necessary packages
+Install necessary nodejs packages
 
 ```
 npm install -g nodemon
