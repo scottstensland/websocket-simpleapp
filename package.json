@@ -1,0 +1,26 @@
+{
+  "name": "websocket-simpleapp",
+  "version": "1.0.0",
+  "description": "bare bones websocket with nodejs serverside",
+	"dependencies": {
+        "ws": "1.1.x"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottstensland/websocket-simpleapp.git"
+  },
+  "keywords": [
+    "websocket",
+    "nodejs"
+  ],
+  "author": "scottstensland@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottstensland/websocket-simpleapp/issues"
+  },
+  "homepage": "https://github.com/scottstensland/websocket-simpleapp"
+}

@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>bare bones websocket with nodejs serverside</title>
+<script type="text/javascript">
+
+var websocket_connection = (function() {
+
+	var port_serverside = 8888;
+
+    var web_socket = new WebSocket('ws://' + location.hostname + ':' + port_serverside);
+
+	web_socket.onopen = function (event) {
+
+	  web_socket.send("Here's some text client has sent to server upon socket open event!"); 
+	};
+
+	web_socket.onmessage = function (event) {
+	  console.log(event.data);
+	}
+
+}());      //      websocket_connection
+
+</script>
+</head>
+<body>
+</body>
+</html>
+
+
+
