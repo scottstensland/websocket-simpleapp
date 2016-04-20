@@ -2,11 +2,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>bare bones websocket with nodejs serverside</title>
+
 <script type="text/javascript">
 
 var websocket_connection = (function() {
 
-	var port_serverside = 8888;
+	var port_serverside = 8888; // connect to server side which is listening to this port
 
     var web_socket = new WebSocket('ws://' + location.hostname + ':' + port_serverside);
 
@@ -19,9 +20,10 @@ var websocket_connection = (function() {
 	  console.log(event.data);
 	}
 
-}());      //      websocket_connection
+}());   //   websocket_connection
 
 </script>
+
 </head>
 <body>
 </body>
