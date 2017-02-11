@@ -27,7 +27,6 @@ npm start   #  this launches our WebSocket server code
 
 Now the server is listening to [http://localhost:8888](http://localhost:8888)
 
-Do not just point your browser to that URL it only handles WebSocket traffic 
 
 Here we have separate directories for server side -VS- browser client side code :
 
