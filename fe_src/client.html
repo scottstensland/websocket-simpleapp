@@ -6,11 +6,9 @@
 <script type="text/javascript">
 
 var websocket_connection = (function() {
-
-	var port_serverside = 8888; // connect to server side which is listening to this port
-
-    var web_socket = new WebSocket('ws://' + location.hostname + ':' + port_serverside);
-
+	
+	var web_socket = new WebSocket('ws://127.0.0.1:8888');
+	
 	web_socket.onopen = function (event) {
 
 	  web_socket.send("Here's some text client has sent to server upon socket open event!"); 
